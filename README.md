@@ -29,7 +29,8 @@ Add these lines and modify per your personal choices to select the user library 
   # .libPaths(c(Sys.getenv("R_LIBS_USER"), .libPaths()))
   # Sys.getenv("USERPROFILE")
   cat(paste("User library located: ", Sys.getenv("R_LIBS_USER"), "\n"))
-       
+
+  # Update your user library list here     
   myLibs <- c("glue", "ggplot2", "tidyr", "readxl")
   for (lib in myLibs) {
     cat(paste("Loading: ", lib, "\n"))
