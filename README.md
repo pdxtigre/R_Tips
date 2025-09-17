@@ -5,7 +5,7 @@ Here is how we should do when installing within a Firewall. Basically, we will h
 
 Select **Tool** --> **Global Options**
 
-Then go to *Packages**, uncheck **"Use secure download method for HTTP**, then click **Apply** button
+Then go to **Packages**, uncheck **"Use secure download method for HTTP"**, then click **Apply** button
 
 After this the user will be able to install any packages.
 
