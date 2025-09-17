@@ -3,10 +3,10 @@
 ## Installing Packages within a Firewall
 Here is how we should do when installing within a Firewall. Basically, we will have to disable https (secured connection)
 
-Select **Tool** --> **Global Options**
+Select **Tool** --> **Global Options**<br/>
 ![Global Options](./images/Tool_Global_Options.png)
 
-Then go to **Packages**, uncheck **"Use secure download method for HTTP"**, then click **Apply** button
+Then go to **Packages**, uncheck **"Use secure download method for HTTP"**, then click **Apply** button<br/>
 ![HTTP/HTTPS Setting](./images/HTTP_Setting.png)
 
 After this the user will be able to install any packages.
